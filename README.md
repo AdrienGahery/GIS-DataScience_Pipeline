@@ -1,6 +1,6 @@
 # GIS-DataScience_Pipeline
 
-Using PySAL libraries and Tobler package to perform GeoSpatial Data Science on PostGIS-hosted data. We're performing these tasks through Jupyter NoteBoks. 
+Using PySAL libraries and Tobler package to perform GeoSpatial Data Science on PostGIS-hosted data. We're performing these tasks through Jupyter NoteBooks. I'm learning as I go, and I'm pushing the enveloppe as I learn, hence the WIP patch ;) 
 
 This series of Jupyter Notebooks are going step-by-step though using Python's libraries in a database administration context. The first two notebooks are in French. Don't let this hinder you from having a peek, they're very approachable. I'm picking from the results from script to script to perform the treatments therein. The data is free, and available on the internet. I'm supplying their download links.
 
