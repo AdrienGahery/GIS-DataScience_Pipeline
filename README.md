@@ -18,7 +18,7 @@ In this NoteBook, we're manipulating Python to create a hexagonal grid over a ge
 
 ## Tobler Spatial Intepolation
 
-We're not yet *guessing* the data from its position relative to known data, we'll play with a complete and reliable dataset, and we'll manipulate various interpolation variable categories (intensive & categorical), and we'll combine the results in the hexagonal mesh we've calculated before. We're using the [Tobler Package](https://pysal.org/tobler/, which is part of [PySAL library](http://pysal.org/pysal/). A Jupyter Notebook, built upon the findings of previous Notebooks upon this repository.
+We're not yet *guessing* the data from its position relative to known data, we'll play with a complete and reliable dataset, and we'll manipulate various interpolation variable categories (intensive & categorical), and we'll combine the results in the hexagonal mesh we've calculated before. We're using the [Tobler Package](https://pysal.org/tobler/), which is part of [PySAL library](http://pysal.org/pysal/). A Jupyter Notebook, built upon the findings of previous Notebooks upon this repository.
 
 ## ESDA Spatial AutoCorrelation
 
