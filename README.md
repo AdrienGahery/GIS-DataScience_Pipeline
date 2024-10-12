@@ -14,7 +14,7 @@ The only file that isn't a Jupyter NoteBook! It's a Markdown file. I originally 
 
 ## PostGIS to GeoPandas 
 
-In this NoteBook, we're manipulating Python to create a hexagonal grid over a geographical polygon. There is one parameter, the mesh size. We're using the results of the script throughout. As I'm discussing inside the Notebook, this work is mostly meant to manupulating python tools, and coming up with a Pandas Dataframe-oriented workflow.
+In this NoteBook, we're manipulating Python to create a hexagonal grid over a geographical polygon. There is one parameter, the mesh size. We're using the results of the script in the next Notebooks. As I'm discussing inside the Notebook, this work is mostly meant to test the Pandas Dataframe's possibilities in regards of the SQL one. We are passing a parameter from Python to SQL. This is allowing a tremendous flexibility in the Python-PostGIS workflow. 
 
 ## Tobler Spatial Intepolation
 
@@ -26,7 +26,7 @@ We're making use of [Exploratory Spatial Data Analysis](https://pysal.org/esda/)
 
 ## Map creation and Data visualization
 
-The purpose of this notebook is to displaying a map of our data, nested with histograms pointing at their corresponding geometry. 
+The purpose of this notebook is to displaying a map of our data, nested with histograms pointing at their corresponding hexagonal cell on the map. 
 In order to doing so, we're doing data manipulation in Python: sorting lists, creating dictionnaries of Panda's DataFrames. We're also using GridSpec to arranging several plots inside a single figure.
 We're also using [Contextily](https://contextily.readthedocs.io/en/latest/reference.html) to enhance the visual experience.
 
@@ -37,7 +37,7 @@ Adapting [Ostwal Prasad](https://github.com/ostwalprasad/ostwalprasad.github.io/
 
 ## Soon to expect !
 
-Soon to expect is some [SciKit Learn](https://scikit-learn.org/stable/index.html) in the next Notebook! Applying a supervised machine learning method on my PostGIS-hosted dataset.
+Soon to expect is some more [SciKit Learn](https://scikit-learn.org/stable/index.html) in the next Notebook! Applying a supervised machine learning method on my PostGIS-hosted dataset.
 
 Feel free to give any feedback ! :)
 
