@@ -30,6 +30,11 @@ The purpose of this notebook is to displaying a map of our data, nested with his
 In order to doing so, we're doing data manipulation in Python: sorting lists, creating dictionnaries of Panda's DataFrames. We're also using GridSpec to arranging several plots inside a single figure.
 We're also using [Contextily](https://contextily.readthedocs.io/en/latest/reference.html) to enhance the visual experience.
 
+## PCA Using python
+
+[PCA(Principal Component Analysis)](https://scikit-learn.org/stable/modules/decomposition.html#pca) is an unsupervised machine learning method allowing you reduce the dimension of your data. It is the first method in the realm of data mining we're going to use.
+Adapting [Ostwal Prasad](https://github.com/ostwalprasad/ostwalprasad.github.io/tree/master)'s Notebook to my workflow so I can pull an interpretation of a selected subset of the my PostGIS-hosted dataset from the previous notebooks. This is the first Notebook featuring [SciKit Learn](https://scikit-learn.org/stable/index.html) library..
+
 ## Soon to expect !
 
 Soon to expect is some SciKit Learn in the next Notebook! Applying supervised and unsupervised machine learning methods on my PostGIS-hosted dataset.
