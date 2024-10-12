@@ -16,9 +16,9 @@ The only file that isn't a Jupyter NoteBook! It's a Markdown file. I originally 
 
 In this NoteBook, we're manipulating Python to create a hexagonal grid over a geographical polygon. There is one parameter, the mesh size. We're using the results of the script in the next Notebooks. As I'm discussing inside the Notebook, this work is mostly meant to test the Pandas Dataframe's possibilities in regards of the SQL one. We are passing a parameter from Python to SQL. This is allowing a tremendous flexibility in the Python-PostGIS workflow. 
 
-## Tobler Spatial Intepolation
+## Tobler Spatial Interpolation
 
-We'll use a complete and reliable dataset, and we'll manipulate various interpolation variable categories (intensive & categorical), and we'll combine the results in the hexagonal mesh we've calculated before. We're using the [Tobler Package](https://pysal.org/tobler/), which is part of [PySAL library](http://pysal.org/pysal/). This is done in a Jupyter Notebook, and the code is built upon the findings of previous Notebooks upon this repository.
+We'll use a complete dataset, and we'll manipulate various interpolation variable categories (intensive & categorical), and we'll combine the results in the hexagonal mesh we've calculated before. We're using the [Tobler Package](https://pysal.org/tobler/), which is part of [PySAL library](http://pysal.org/pysal/). This is done in a Jupyter Notebook. The code is built upon the previous Notebooks.
 
 ## ESDA Spatial AutoCorrelation
 
