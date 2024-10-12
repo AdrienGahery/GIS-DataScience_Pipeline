@@ -4,7 +4,7 @@ Using [PySAL library](http://pysal.org/pysal/) libraries to perform GeoSpatial D
 
 This series of Jupyter Notebooks are going though using Python's libraries in a database administration context. The first two Notebooks are written in French. I'm writing the latest in English, as a mean to showcase my ability to present my work in english. I'm supplying their download links in the Notebooks. It's free and widely available.
 
-## VS Code Setup [in French]
+## VS Code Setup
 
 It's a beginner's guide to setting up VS Code for SQL, Markdown and Python. It's dealing with installing the extension we need inside your virtual environments.
 
