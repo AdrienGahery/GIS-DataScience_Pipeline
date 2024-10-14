@@ -10,11 +10,11 @@ It's a beginner's guide to setting up VS Code for SQL, Markdown and Python. It's
 
 ## SQL use showcase [in French]
 
-The only file that isn't a Jupyter NoteBook! It's a Markdown file. I originally sent it as a demo to my peers, as they were curious about my SQL proficiency. The request is interesting, it is a very short script but it is a mighty one. The main takeaway I took from it is you can use VS Code as a postgres client, which came in handy.
+The only file that isn't a Jupyter NoteBook! It's a Markdown file. I originally sent it as a demo to my peers, as they were curious about my SQL proficiency. I'm featuring a single, very short SQL request, but it is a mighty one. I'm describing the purpose of the request, and the thinking process leading to the actual script. I wrote it while I was new to VS Code. I was pleased with its capabilities in being a PostGres client, which came handy for the jobs the next Notebooks are achieving.
 
-## PostGIS to GeoPandas 
+## PostGIS to GeoPandas
 
-In this NoteBook, we're manipulating Python to create a hexagonal grid over a geographical polygon. There is one parameter, the mesh size. We're using the results of the script in the next Notebooks. As I'm discussing inside the Notebook, this work is mostly meant to test the Pandas Dataframe's possibilities in regards of the SQL one. We are passing a parameter from Python to SQL. This is allowing a tremendous flexibility in the Python-PostGIS workflow. 
+In this NoteBook, we're manipulating Python to create a hexagonal grid over a geographical polygon. There is one parameter, the mesh size. We're using the results of the script in the next Notebooks. As I'm discussing inside the Notebook, I could certainly have done that job in SQL if I had to in a production environnement. Still, the challenge allowed me to set a workflow from Python to PostGIS, and back, through SQL Alchemy's [binding parameters](https://docs.sqlalchemy.org/en/13/core/tutorial.html#specifying-bound-parameter-behaviors).
 
 ## Tobler Spatial Interpolation
 
