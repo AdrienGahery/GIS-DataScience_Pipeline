@@ -35,6 +35,10 @@ We're also using [Contextily](https://contextily.readthedocs.io/en/latest/refere
 [PCA(Principal Component Analysis)](https://scikit-learn.org/stable/modules/decomposition.html#pca) is an unsupervised machine learning method allowing you reduce the dimension of your data. It is the first method in the realm of data mining we're going to use and interpret.
 Adapting [Ostwal Prasad](https://github.com/ostwalprasad/ostwalprasad.github.io/tree/master)'s Notebook to my workflow so I can pull an interpretation of a selected subset of the my PostGIS-hosted dataset from the previous Notebooks. This is the first Notebook featuring a [SciKit Learn](https://scikit-learn.org/stable/index.html) library.
 
+## Decision Tree and Random Forest Classifier
+
+Using the findings of our PCA to let a [Decision Tree](https://scikit-learn.org/stable/modules/tree.html) model predict the classes for the whole dataset from a few manually picked exeamples. We are using another [SciKit Learn](https://scikit-learn.org/stable/index.html) library here. We are using the [Random Forest classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) to performing the same process. We are using dictionnaries of datasets to perform a parallel analysis throughout on different subsets of our dataset. 
+
 ## Soon to expect !
 
 Soon to expect is some more [SciKit Learn](https://scikit-learn.org/stable/index.html) in the next Notebook! Applying a supervised machine learning method on my PostGIS-hosted dataset.
