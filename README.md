@@ -44,6 +44,10 @@ Using the findings of our PCA to let a [Decision Tree](https://scikit-learn.org/
 We are using another [SciKit Learn](https://scikit-learn.org/stable/index.html) classifier. As per the Random Forest classifier, we are using the [*k*-Nearest Neighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) classifier to predict classes. We are then setting [elbow charts](https://en.wikipedia.org/wiki/Elbow_method_(clustering)) to determine our best value for *k*.
 We are also making maps to have a sense of the established classification.
 
+## *k*-Means Neighbors
+
+Our first dip into clustering. Its last section is still a WIP, but it is worth sharing already.
+
 ## Soon to expect !
 
 Soon to expect is some more [SciKit Learn](https://scikit-learn.org/stable/index.html) in the next Notebook! Applying a supervised machine learning method on my PostGIS-hosted dataset.
