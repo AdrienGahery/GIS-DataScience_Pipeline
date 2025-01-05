@@ -48,4 +48,4 @@ We are also making maps to have a sense of the established classification.
 
 [*k*-Means Neighbors](https://scikit-learn.org/stable/modules/clustering.html#k-means) is our first dip into clustering. We are performing a *k*-Means Neighbors clustering on a few different subsets. We are then trying to evaluate its performance with [calisnski-harabasz index](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index), as well as trying out [Geosilhouettes](https://pysal.org/esda/notebooks/geosilhouettes.html). Lastly, we are trying to get a feel on how consistent the clustering is, given a few iterations.
 
-We made creative use of [Moran's ${I}$ binary cases](https://pysal.org/esda/notebooks/spatialautocorrelation.html) throughout. This allowed us to quickly evaluate differences in clustering by the color palette of the resulting maps.
+We made creative use of Moran's ${I}$ [binary cases](https://pysal.org/esda/notebooks/spatialautocorrelation.html) throughout. This allowed us to quickly evaluate differences in clustering by the color palette of the resulting maps.
